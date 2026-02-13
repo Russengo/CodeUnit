@@ -67,7 +67,7 @@ body {
 .nav-logo {
     width: 250px; /* Ancho Desktop */
     height: auto;
-    max-height: 90px;
+    max-height: 150px;
     object-fit: contain;
     display: block;
 }
@@ -324,7 +324,7 @@ body {
     
     /* Navbar Móvil */
     .navbar { padding: 15px 20px; position: relative; }
-    .nav-logo { width: 180px; } /* Logo más chico en celular */
+    .nav-logo { width: 120px; } /* Logo más chico en celular */
     
     .menu-toggle { display: flex; z-index: 1002; }
 
