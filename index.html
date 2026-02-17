@@ -6,6 +6,11 @@
     <title>Nodo Sur - Soluciones Tecnológicas</title>
     
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="newLogo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="newLogo.png">
+<link rel="apple-touch-icon" sizes="180x180" href="newLogo.png">
+
+
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     
@@ -239,6 +244,88 @@
         </div>
     </section>
 
+        
+    <section id="contacto" class="section-white">
+        <div class="container">
+            <div class="center-header">
+                <h4 class="section-subtitle">CONTÁCTANOS</h4>
+                <h2>Dejanos tu consulta</h2>
+                <p>Te responderemos a la brevedad.</p>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo</label>
+                            <input 
+                                type="text" 
+                                id="nombre" 
+                                name="nombre" 
+                                placeholder="Ej: Matías Russo" 
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                placeholder="tucorreo@ejemplo.com" 
+                                required
+                            >
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="empresa">Empresa / Organización (opcional)</label>
+                        <input 
+                            type="text" 
+                            id="empresa" 
+                            name="empresa" 
+                            placeholder="Ej: Escuela Nº 5 o PYME local"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telefono">Teléfono (opcional)</label>
+                        <input 
+                            type="tel" 
+                            id="telefono" 
+                            name="telefono" 
+                            placeholder="+54 9 11 xxxx-xxxx"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea 
+                            id="mensaje" 
+                            name="mensaje" 
+                            rows="5" 
+                            placeholder="Contanos sobre tu proyecto o consulta..." 
+                            required
+                        ></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" name="acepto" required>
+                            Acepto los términos y condiciones y la política de privacidad
+                        </label>
+                    </div>
+
+                    <button type="submit">
+                        Enviar consulta
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
     <footer id="contacto" class="footer-section">
         <div class="container">
             <div class="footer-grid">
@@ -275,6 +362,8 @@
                     </ul>
                 </div>
             </div>
+
+            
 
             <div class="footer-bottom">
                 <p>&copy; 2026 CodeUnit. Todos los derechos reservados.</p>
